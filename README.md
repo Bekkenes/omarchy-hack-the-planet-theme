@@ -17,7 +17,7 @@ green, electric cyan and hot magenta, with a bitmap Gibson-mainframe wallpaper.
 Clone this repo as a theme directory:
 
 ```sh
-git clone https://github.com/Bekkenes/hack-the-planet ~/.config/omarchy/themes/hack-the-planet
+gh repo clone Bekkenes/hack-the-planet ~/.config/omarchy/themes/hack-the-planet
 ```
 
 Then set it in `~/.config/omalauncher/style/style.toml`:
