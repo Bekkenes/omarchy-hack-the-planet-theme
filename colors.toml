@@ -1,0 +1,36 @@
+# Hack the Planet — a late-90s cyberpunk palette: terminal black, acid green,
+# electric cyan and hot magenta. Inspired by the look of Hackers (1995).
+
+mode = "dark"
+
+background = "#060a10"
+dark_background = "#03060a"
+darker_background = "#010305"
+lighter_background = "#0c161e"
+
+foreground = "#d7fff4"
+dark_foreground = "#5d9e95"
+light_foreground = "#9fe8d9"
+bright_foreground = "#f2fffb"
+
+accent = "#00ff9c"
+selection = "#0b3b35"
+
+# `muted` is the launcher's border color; `dark_foreground` is its dim text.
+muted = "#1b4c49"
+
+red = "#ff2e63"
+yellow = "#f2f20a"
+orange = "#ff9f1c"
+green = "#00ff66"
+cyan = "#00e5ff"
+blue = "#4d7cff"
+magenta = "#ff2bd6"
+brown = "#7a4b2a"
+
+bright_red = "#ff6b8f"
+bright_yellow = "#ffff66"
+bright_green = "#66ff9e"
+bright_cyan = "#66f0ff"
+bright_blue = "#8fa9ff"
+bright_magenta = "#ff7ae6"
