@@ -3,21 +3,30 @@
 A late-90s cyberpunk theme for Omalauncher / Omarchy: terminal black, acid
 green, electric cyan and hot magenta, with a bitmap Gibson-mainframe wallpaper.
 
+![preview](preview.png)
+
 ## In this repo
 
 - `colors.toml` — the theme palette.
 - `backgrounds/1-gibson.png` — 1440×3120 bitmap wallpaper: 4 px blocks, 44-colour
   quantise, scanlines. A wireframe mainframe tower over a perspective grid and
   a neon skyline.
+- `preview.png` — 1200×675 theme preview.
 - `widget/agenda.owl` — optional 3×6 phone-agenda widget.
 - `widget/preview.png` — sanitized tile preview (sample events only).
 
 ## Install
 
-Clone this repo as a theme directory:
+Once listed in the Omarchy theme registry:
 
 ```sh
-gh repo clone Bekkenes/hack-the-planet ~/.config/omarchy/themes/hack-the-planet
+omarchy theme install hack-the-planet
+```
+
+Or clone this repo as the theme directory:
+
+```sh
+git clone https://github.com/Bekkenes/omarchy-hack-the-planet-theme ~/.config/omarchy/themes/hack-the-planet
 ```
 
 Then set it in `~/.config/omalauncher/style/style.toml`:
